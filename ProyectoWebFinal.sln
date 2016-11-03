@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoWebFinal", "ProyectoWebFinal\ProyectoWebFinal.csproj", "{F6C0F0D7-ADE5-49EC-A148-FF83DBBB8087}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoWebFinal2", "ProyectoWebFinal\ProyectoWebFinal2.csproj", "{F6C0F0D7-ADE5-49EC-A148-FF83DBBB8087}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{F7FB5155-3A5B-4106-8E42-BD54967BC1A5}"
 EndProject
