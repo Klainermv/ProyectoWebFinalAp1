@@ -1,0 +1,5 @@
+c:\users\marino rosario\documents\visual studio 2013\Projects\ProyectoWebFinal\DAL\bin\Debug\DAL.dll
+c:\users\marino rosario\documents\visual studio 2013\Projects\ProyectoWebFinal\DAL\bin\Debug\DAL.pdb
+c:\users\marino rosario\documents\visual studio 2013\Projects\ProyectoWebFinal\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\users\marino rosario\documents\visual studio 2013\Projects\ProyectoWebFinal\DAL\obj\Debug\DAL.dll
+c:\users\marino rosario\documents\visual studio 2013\Projects\ProyectoWebFinal\DAL\obj\Debug\DAL.pdb
