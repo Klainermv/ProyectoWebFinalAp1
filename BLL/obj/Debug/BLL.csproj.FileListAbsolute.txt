@@ -5,3 +5,10 @@ c:\users\marino rosario\documents\visual studio 2013\Projects\ProyectoWebFinal\B
 c:\users\marino rosario\documents\visual studio 2013\Projects\ProyectoWebFinal\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 c:\users\marino rosario\documents\visual studio 2013\Projects\ProyectoWebFinal\BLL\obj\Debug\BLL.dll
 c:\users\marino rosario\documents\visual studio 2013\Projects\ProyectoWebFinal\BLL\obj\Debug\BLL.pdb
+C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\BLL\bin\Debug\BLL.dll
+C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\BLL\bin\Debug\BLL.pdb
+C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\BLL\bin\Debug\DAL.dll
+C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\BLL\bin\Debug\DAL.pdb
+C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\BLL\obj\Debug\BLL.dll
+C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\BLL\obj\Debug\BLL.pdb

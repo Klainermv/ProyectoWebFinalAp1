@@ -3,3 +3,8 @@ c:\users\marino rosario\documents\visual studio 2013\Projects\ProyectoWebFinal\D
 c:\users\marino rosario\documents\visual studio 2013\Projects\ProyectoWebFinal\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 c:\users\marino rosario\documents\visual studio 2013\Projects\ProyectoWebFinal\DAL\obj\Debug\DAL.dll
 c:\users\marino rosario\documents\visual studio 2013\Projects\ProyectoWebFinal\DAL\obj\Debug\DAL.pdb
+C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\DAL\bin\Debug\DAL.dll
+C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\DAL\bin\Debug\DAL.pdb
+C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\DAL\obj\Debug\DAL.dll
+C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\DAL\obj\Debug\DAL.pdb
