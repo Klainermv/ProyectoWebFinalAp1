@@ -8,3 +8,8 @@ C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\DAL\bin\Debug\DAL.pdb
 C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\DAL\obj\Debug\DAL.dll
 C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\DAL\obj\Debug\DAL.pdb
+C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\DAL\bin\Debug\DAL.dll
+C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\DAL\bin\Debug\DAL.pdb
+C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\DAL\obj\Debug\DAL.dll
+C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\DAL\obj\Debug\DAL.pdb

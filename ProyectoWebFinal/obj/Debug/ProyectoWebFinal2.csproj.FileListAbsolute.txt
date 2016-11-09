@@ -8,3 +8,13 @@ C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\ProyectoWebFinal\obj\D
 C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\ProyectoWebFinal\obj\Debug\ProyectoWebFinal.pdb
 C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\ProyectoWebFinal\bin\DAL.dll
 C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\ProyectoWebFinal\bin\DAL.pdb
+C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\ProyectoWebFinal\bin\ProyectoWebFinal.dll.config
+C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\ProyectoWebFinal\bin\ProyectoWebFinal.dll
+C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\ProyectoWebFinal\bin\ProyectoWebFinal.pdb
+C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\ProyectoWebFinal\bin\BLL.dll
+C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\ProyectoWebFinal\bin\DAL.dll
+C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\ProyectoWebFinal\bin\BLL.pdb
+C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\ProyectoWebFinal\bin\DAL.pdb
+C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\ProyectoWebFinal\obj\Debug\ProyectoWebFinal2.csprojResolveAssemblyReference.cache
+C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\ProyectoWebFinal\obj\Debug\ProyectoWebFinal.dll
+C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\ProyectoWebFinal\obj\Debug\ProyectoWebFinal.pdb

@@ -66,13 +66,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\SisPacDB.mdf" />
-    <Content Include="App_Data\SIsPacDB2.mdf" />
-    <Content Include="App_Data\SIsPacDB2_log.ldf">
-      <DependentUpon>SIsPacDB2.mdf</DependentUpon>
-    </Content>
-    <Content Include="App_Data\SisPacDB_log.ldf">
-      <DependentUpon>SisPacDB.mdf</DependentUpon>
+    <Content Include="App_Data\PacientesDataBase.mdf" />
+    <Content Include="App_Data\PacientesDataBase_log.ldf">
+      <DependentUpon>PacientesDataBase.mdf</DependentUpon>
     </Content>
     <Content Include="bs\css\bootstrap-theme.css" />
     <Content Include="bs\css\bootstrap-theme.min.css" />
