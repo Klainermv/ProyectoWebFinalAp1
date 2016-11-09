@@ -6,3 +6,5 @@ C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\ProyectoWebFinal\bin\B
 C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\ProyectoWebFinal\obj\Debug\ProyectoWebFinal2.csprojResolveAssemblyReference.cache
 C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\ProyectoWebFinal\obj\Debug\ProyectoWebFinal.dll
 C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\ProyectoWebFinal\obj\Debug\ProyectoWebFinal.pdb
+C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\ProyectoWebFinal\bin\DAL.dll
+C:\Users\Sandro Nash\Documents\GitHub\ProyectoWebFinalAp1\ProyectoWebFinal\bin\DAL.pdb

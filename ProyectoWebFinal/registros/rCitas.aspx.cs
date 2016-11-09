@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using BLL;
 
 namespace ProyectoWebFinal.registros
 {
@@ -12,6 +13,22 @@ namespace ProyectoWebFinal.registros
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void BtnGuardar_Click(object sender, EventArgs e)
+        {
+            Citas cita = new Citas();
+            cita.Descripcion = TxBxDescripcion.Text;
+            cita.Fecha = Convert.ToDateTime(TxBxFecha.Text);
+
+            if (cita.Insertar()) {
+                limpiaCampos();
+            }
+        }
+
+        private void limpiaCampos() {
+            TxBxDescripcion.Text = string.Empty;
+            TxBxFecha.Text = string.Empty;
         }
     }
 }
