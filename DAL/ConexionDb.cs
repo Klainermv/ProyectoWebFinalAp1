@@ -14,8 +14,7 @@ namespace DAL
     public class ConexionDb
     {
         SqlConnection Conexion = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\KLAINER\\Source\\Repos\\ProyectoWebFinalAp1\\ProyectoWebFinal\\App_Data\\PacientesDataBase.mdf;Integrated Security=True");
-        
-
+               
 
         //;Connect Timeout = 30
         /// <summary>

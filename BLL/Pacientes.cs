@@ -40,7 +40,7 @@ namespace BLL
         public override bool Insertar()
         {
             ConexionDb cnx = new ConexionDb();
-            string sql = string.Format("INSERT INTO Pacientes(PersonaId, EsNuevo, EsAsegurado)VALUES({0},'{1}','{2}') ", PersonaId, EsNuevo, EsAsegurado);
+            string sql = string.Format("INSERT INTO Pacientes(PersonaId, EsNuevo, EsAsegurado)VALUES({0},'{1}','{2}') SELECT scope_identity()", PersonaId, EsNuevo, EsAsegurado);
             Id = Convert.ToInt32(cnx.ObtenerValorDb(sql));
             return Id > 1;
         }
@@ -52,13 +52,13 @@ namespace BLL
 
         public DataTable Listado2() {
             ConexionDb cnx = new ConexionDb();
-            string sql = string.Format("SELECT pe.Nombres, pe.Apellidos, pe.Cedula, pe.Telefono, pa.EsNuevo, pa.EsASegurado FROM Personas pe JOIN Pacientes pa ON pa.PersonaId = pe.PersonaId WHERE (pe.Activo = 1)");
+            string sql = string.Format("SELECT pe.Nombres, pe.Apellidos, pe.Cedula, pe.Telefono, pa.EsNuevo, pa.EsASegurado FROM Personas pe JOIN Pacientes pa ON pa.PersonaId = pe.PersonaId WHERE (pe.Activo = 1) ORDER BY pa.PacienteId DESC");
             return cnx.BuscarDb(sql);
         }
 
         public DataTable ListadoBusqueda(string consulta){
             ConexionDb cnx = new ConexionDb();
-            string sql = string.Format("SELECT pe.Nombres, pe.Apellidos, pe.Cedula, pe.Telefono, pa.EsNuevo, pa.EsASegurado FROM Personas pe JOIN Pacientes pa ON pa.PersonaId = pe.PersonaId WHERE (pe.Activo = 1) AND ( pe.Nombres LIKE '%{0}%' OR pe.Apellidos LIKE '%{0}%' OR pe.Cedula LIKE '%{0}%' OR pe.Telefono LIKE '%{0}%' )",consulta);
+            string sql = string.Format("SELECT pe.Nombres, pe.Apellidos, pe.Cedula, pe.Telefono, pa.EsNuevo, pa.EsASegurado FROM Personas pe JOIN Pacientes pa ON pa.PersonaId = pe.PersonaId WHERE ((pe.Activo = 1) AND (pe.Nombres LIKE '%{0}%') OR (pe.Apellidos LIKE '%{0}%') OR (pe.Cedula LIKE '%{0}%') OR (pe.Telefono LIKE '%{0}%') )", consulta);
             return cnx.BuscarDb(sql);
         }
     }

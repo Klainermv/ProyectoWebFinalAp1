@@ -15,8 +15,7 @@ namespace ProyectoWebFinal.registros
         {
             if (!IsCallback)
             {
-                
-
+                LlenaTabla();
             }
         }
 
@@ -32,9 +31,13 @@ namespace ProyectoWebFinal.registros
             if (pers.Insertar()) {               
                 Pacientes pac = new Pacientes();
                 pac.PersonaId = pers.Id;
-                pac.EsAsegurado = Convert.ToBoolean(ChkBxEsAsegurado.Text);
+                pac.EsAsegurado = ChkBxEsAsegurado.Checked;                
                 pac.EsNuevo = true;
-                pac.Insertar();
+                if (pac.Insertar()){
+                    limpiar();
+                    LlenaTabla();
+                }
+
             }
 
         }
@@ -46,6 +49,7 @@ namespace ProyectoWebFinal.registros
 
             if (dt.Rows.Count > 0)
             {
+                limpiar();
                 TxBxNombres.Text = dt.Rows[0]["Nombres"].ToString();
                 TxBxApellidos.Text = dt.Rows[0]["Apellidos"].ToString();
                 TxBxCedula.Text = dt.Rows[0]["Cedula"].ToString();
@@ -53,6 +57,22 @@ namespace ProyectoWebFinal.registros
                 ChkBxEsAsegurado.Text = dt.Rows[0]["EsASegurado"].ToString();
                 ChkBxEsNuevo.Text = dt.Rows[0]["EsNuevo"].ToString();
             }
+        }
+
+        void LlenaTabla() {
+            Pacientes pac = new Pacientes();
+            repetPacientes.DataSource = pac.Listado2();
+            repetPacientes.DataBind();
+        }
+
+        void limpiar()
+        {
+            TxBxNombres.Text = string.Empty;
+            TxBxApellidos.Text = string.Empty;
+            TxBxCedula.Text = string.Empty;
+            TxBxTelefono.Text = string.Empty;
+            ChkBxEsAsegurado.Checked = false;
+            ChkBxEsNuevo.Checked = false;
         }
     }
 }

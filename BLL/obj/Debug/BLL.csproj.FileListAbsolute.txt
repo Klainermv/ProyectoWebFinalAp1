@@ -19,3 +19,10 @@ C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\BLL\bin\Debug\DAL.pdb
 C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\BLL\obj\Debug\BLL.dll
 C:\Users\KLAINER\Source\Repos\ProyectoWebFinalAp1\BLL\obj\Debug\BLL.pdb
+C:\Users\Sandro Nash\Source\Repos\ProyectoWebFinalAp1\BLL\bin\Debug\BLL.dll
+C:\Users\Sandro Nash\Source\Repos\ProyectoWebFinalAp1\BLL\bin\Debug\BLL.pdb
+C:\Users\Sandro Nash\Source\Repos\ProyectoWebFinalAp1\BLL\bin\Debug\DAL.dll
+C:\Users\Sandro Nash\Source\Repos\ProyectoWebFinalAp1\BLL\bin\Debug\DAL.pdb
+C:\Users\Sandro Nash\Source\Repos\ProyectoWebFinalAp1\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Sandro Nash\Source\Repos\ProyectoWebFinalAp1\BLL\obj\Debug\BLL.dll
+C:\Users\Sandro Nash\Source\Repos\ProyectoWebFinalAp1\BLL\obj\Debug\BLL.pdb

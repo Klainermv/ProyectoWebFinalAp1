@@ -42,7 +42,7 @@ namespace BLL
         public override bool Insertar()
         {
             ConexionDb cnx = new ConexionDb();
-            string sql = string.Format("INSERT INTO Personas(Nombres, Apellidos, Cedula, Telefono)VALUES('{0}','{1}','{2}','{3}') ", Nombres, Apellidos, Cedula, Telefono);
+            string sql = string.Format("INSERT INTO Personas(Nombres, Apellidos, Cedula, Telefono)VALUES('{0}','{1}','{2}','{3}') SELECT scope_identity()", Nombres, Apellidos, Cedula, Telefono);
             Id = Convert.ToInt32(cnx.ObtenerValorDb(sql));
             return Id > 1;
         }
