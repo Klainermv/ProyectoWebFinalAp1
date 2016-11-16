@@ -30,5 +30,12 @@ namespace ProyectoWebFinal.registros
             TxBxDescripcion.Text = string.Empty;
             TxBxFecha.Text = string.Empty;
         }
+
+        protected void btnBuscarPaciente_Click(object sender, EventArgs e)
+        {
+            Pacientes paciente = new Pacientes();
+            GVPacientes.DataSource = paciente.ListadoBusqueda(TxBxBuscaPaciente.Text);
+            GVPacientes.DataBind();
+        }
     }
 }
