@@ -53,8 +53,50 @@
     </div>
             
     <asp:Button ID="BtnGuardar" runat="server" Text="Guardar" CssClass="btn btn-success btn-block" OnClick="BtnGuardar_Click"  />
+
+    <asp:UpdatePanel ID="UpdPaciente" runat="server">
+        <ContentTemplate>
+            <asp:Repeater ID="repetPacientes" runat="server">
+                <HeaderTemplate>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Paciente</th><th>Cedula</th><th>Telefono</th><th>Asegurado</th><th>Nueva Cita</th><th>Opciones</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <td colspan="6">
+                                    10
+                                </td>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                </HeaderTemplate>
+
+                <ItemTemplate>
+                    <tr>
+                        <td><%# Eval("Nombres")%>&nbsp;<%# Eval("Apellidos")%></td><td><%# Eval("Cedula")%></td><td><%# Eval("Telefono")%></td><td><%# Eval("EsASegurado")%></td><td><%# Eval("EsNuevo")%></td><td>Opciones</td>
+                    </tr>
+                </ItemTemplate>
+
+                <FooterTemplate>
+                    </tbody>
+                    </table>
+                </FooterTemplate>
+            </asp:Repeater>
+        </ContentTemplate>
+    
+        <Triggers>
+            <asp:AsyncPostBackTrigger ControlID="BtnGuardar" EventName="Click" />
+        </Triggers>
+    
+      </asp:UpdatePanel>
+            
+
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPHPieDePagins" runat="server">
 </asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ContentPHScripts" runat="server">
+    
 </asp:Content>

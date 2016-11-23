@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace DAL
 {
@@ -13,9 +14,8 @@ namespace DAL
     /// </summary>
     public class ConexionDb
     {
-        SqlConnection Conexion = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\KLAINER\\Source\\Repos\\ProyectoWebFinalAp1\\ProyectoWebFinal\\App_Data\\PacientesDataBase.mdf;Integrated Security=True");
-        
-
+        //SqlConnection Conexion = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\KLAINER\\Source\\Repos\\ProyectoWebFinalAp1\\ProyectoWebFinal\\App_Data\\PacientesDataBase.mdf;Integrated Security=True");
+        SqlConnection Conexion = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ToString());
 
         //;Connect Timeout = 30
         /// <summary>

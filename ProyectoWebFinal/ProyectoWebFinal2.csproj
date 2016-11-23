@@ -67,6 +67,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\PacientesDataBase.mdf" />
+    <Content Include="App_Data\PacientesDataBaseAlt.mdf" />
+    <Content Include="App_Data\PacientesDataBaseAlt_log.ldf">
+      <DependentUpon>PacientesDataBaseAlt.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\PacientesDataBase_log.ldf">
       <DependentUpon>PacientesDataBase.mdf</DependentUpon>
     </Content>
