@@ -40,13 +40,22 @@ namespace ProyectoWebFinal.registros {
         protected global::System.Web.UI.WebControls.Button btnBuscarPaciente;
         
         /// <summary>
-        /// Control GVPacientes.
+        /// Control RepPacientes.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GVPacientes;
+        protected global::System.Web.UI.WebControls.Repeater RepPacientes;
+        
+        /// <summary>
+        /// Control GridViewPacientes.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridViewPacientes;
         
         /// <summary>
         /// Control LblPaciente.

@@ -34,8 +34,10 @@ namespace ProyectoWebFinal.registros
         protected void btnBuscarPaciente_Click(object sender, EventArgs e)
         {
             Pacientes paciente = new Pacientes();
-            GVPacientes.DataSource = paciente.ListadoBusqueda(TxBxBuscaPaciente.Text);
-            GVPacientes.DataBind();
+            RepPacientes.DataSource = paciente.ListadoBusqueda(TxBxBuscaPaciente.Text);
+            RepPacientes.DataBind();
+
+            
         }
     }
 }

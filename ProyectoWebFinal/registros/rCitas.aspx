@@ -21,28 +21,30 @@
         </div>
 
         <div class="form-group">
-            <%--<asp:Repeater ID="RepPacientes" runat="server">
+
+
+            <asp:Repeater ID="RepPacientes" runat="server">
                 <HeaderTemplate>
                         <table class="table table-hover">
                             <thead>
                                 <tr>
-                                    <th>Nombres</th> <th>Apellidos</th> <th>Cedula</th> <th>Telefono</th> <th>Primera Vez</th> <th>Asegurado</th>
+                                    <th>Paciente</th><th>Cedula</th> <th>nuevo</th> <th>seguro</th>
                                 </tr>
                             </thead>
                 </HeaderTemplate>
                 
                         <ItemTemplate>
                             <tr>
-                                 <td><%# Eval("Nombres")%></td> <td><%# Eval("Apellidos")%></td> <td><%# Eval("Cedula")%></td> <td><%# Eval("Telefono")%></td> <td><%# Eval("EsNuevo")%></td> <td><%# Eval("EsASegurado")%></td>
+                                 <td><%# Eval("Nombres")%> <%# Eval("Apellidos")%></td> <td><%# Eval("Cedula")%></td> <td> <span class="label label-primary"><%# Eval("EsNuevo")%> </span> </td> <td> <span class="label label-info"> <%# Eval("EsASegurado")%> </span> </td>
                             </tr>                           
                         </ItemTemplate>
 
                 <FooterTemplate>
                         </table>
                 </FooterTemplate>
-            </asp:Repeater>--%>
-            <asp:GridView ID="GVPacientes" runat="server"></asp:GridView>
-
+            </asp:Repeater>
+            
+            <asp:GridView ID="GridViewPacientes" runat="server"></asp:GridView>
 
         </div>
 
